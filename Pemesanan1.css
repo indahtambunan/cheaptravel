@@ -1,6 +1,6 @@
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
+.col-3 {width: 25%; height: 80px;}
 .col-4 {width: 33.33%;}
 .col-5 {width: 41.66%;}
 .col-6 {width: 50%;}
@@ -16,6 +16,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url("background.jpg");
 }
 
 .topnav {
@@ -136,11 +137,7 @@ body {
   float: left;
   padding: 15px;
   background-color: white;
-  margin: 0px;
-}
-
-.bgimg {
-    background-image: url('background.jpg');
+  margin-bottom: 10px;
 }
 
 a {
@@ -148,6 +145,34 @@ a {
   text-decoration: none;
 }
 
+}
+
+.content {
+  display: inline-block;
+  float: left;
+  vertical-align: middle;
+}
+
+img {
+  float: left;
+  margin-right: 10px
+}
+
 h1 {
-  margin: 2px;
+  margin-left: 15px;
+}
+
+.content button {
+  padding: 10px 20px;
+  background-color: orange;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+  float: right;
+  margin-top: 6px;
+}
+
+.isi {
+  vertical-align: middle;
+  text-align: center;
 }
