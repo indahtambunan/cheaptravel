@@ -238,3 +238,8 @@ img {
   margin-top: 10px;
   background-color:white;
 }
+.content table td button{
+    position: relative;
+    margin-left: 100px;
+
+}
